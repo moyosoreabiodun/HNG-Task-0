@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #12343b;
+    color: #ffffff;
+}
+.card {
+    max-width: 370px;
+    width: 100%;
+    background-color: #2d545e;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.6);
+    justify-items: center;
+}
+.profile-img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #e1b382;
+    padding: 3px;
+}
+.profile-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.full-name {
+    margin: 15px;
+}
+.job-title {
+    color: #c89666;
+}
+.short-bio {
+    padding: 20px;
+    text-align: center;
+}
+a {
+    margin: 5px;
+}
+.location, .current-time {
+    margin: 10px;
+}
+
+
+
+/* Colour Palette: 
+Sand Tan: #e1b382
+Sand Tan Shadow: #c89666
+Night Blue: #2d545e
+Night Blue Shadow: #12343b */
